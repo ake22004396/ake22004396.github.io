@@ -21,14 +21,16 @@
 <meta property="og:locale" content="en" />
 
 <meta property="og:type" content="article">
-<meta name="description" content="#在搭建hugo博客时遇到的问题以及解决方法 ##输入 hugo version显示“不是内部或外部命令，也不是可运行的程序 或批处理文件。” ##解决方法 1.打开 &ldquo;控制面板&rdquo;，可以通过在开始菜单中搜索并打开 &ldquo;控制面板&rdquo; 来访问。 2.在 &ldquo;控制面 …" />
+<meta name="description" content="#** 在搭建hugo博客时遇到的问题以及解决方法 ** ##输入 hugo version显示“不是内部或外部命令，也不是可运行的程序 或批处理文件。”
+解决方法 打开 &ldquo;控制面板&rdquo;，可以通过在开始菜单中搜索并打开 &ldquo;控制面板&rdquo; 来访问。 在 &ldquo;控制面 …" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:creator" content="">
 <meta name="twitter:title" content="MyHomework" />
 <meta name="twitter:image" content=""/>
 <meta property="og:url" content="/posts/myhomework/" />
 <meta property="og:title" content="MyHomework" />
-<meta property="og:description" content="#在搭建hugo博客时遇到的问题以及解决方法 ##输入 hugo version显示“不是内部或外部命令，也不是可运行的程序 或批处理文件。” ##解决方法 1.打开 &ldquo;控制面板&rdquo;，可以通过在开始菜单中搜索并打开 &ldquo;控制面板&rdquo; 来访问。 2.在 &ldquo;控制面 …" />
+<meta property="og:description" content="#** 在搭建hugo博客时遇到的问题以及解决方法 ** ##输入 hugo version显示“不是内部或外部命令，也不是可运行的程序 或批处理文件。”
+解决方法 打开 &ldquo;控制面板&rdquo;，可以通过在开始菜单中搜索并打开 &ldquo;控制面板&rdquo; 来访问。 在 &ldquo;控制面 …" />
 <meta property="og:image" content="" />
 
 <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon.png">
@@ -139,22 +141,28 @@
   </span>
   </div>
 
-    <div class="post_body"><p>#<strong>在搭建hugo博客时遇到的问题以及解决方法</strong>
+    <div class="post_body"><p>#** 在搭建hugo博客时遇到的问题以及解决方法 **
 ##输入 hugo version显示“不是内部或外部命令，也不是可运行的程序
-或批处理文件。”
-##解决方法
-1.打开 &ldquo;控制面板&rdquo;，可以通过在开始菜单中搜索并打开 &ldquo;控制面板&rdquo; 来访问。
-2.在 &ldquo;控制面板&rdquo; 中，选择 &ldquo;系统和安全&rdquo;。
-3.点击 &ldquo;系统&rdquo;，然后选择 &ldquo;高级系统设置&rdquo;。
-4.在弹出的 &ldquo;系统属性&rdquo; 窗口中，切换到 &ldquo;高级&rdquo; 选项卡，并点击 &ldquo;环境变量&rdquo; 按钮。
-5.推荐在 &ldquo;系统变量&rdquo; 中进行配置，这样所有用户都可以使用。
-6.添加新的环境变量，点击 &ldquo;新建&rdquo; 按钮。输入hugo.exe所在的位置，并点击 &ldquo;确定&rdquo;。
-##更换hugo主题
-1.打开 Hugo 主题库（例如 themes.gohugo.io）或其他来源，浏览并选择你喜欢的主题。
-2.在主题页面中，找到主题的 GitHub 地址或下载链接，复制该地址或链接。
-3.&gt;打开终端或命令行界面，并导航到你的 Hugo 博客项目目录。运行以下命令，将主题添加为 Git 子模块（以 GitHub 为例）：bashgit submodule add &lt;主题的GitHub地址或下载链接&gt; themes/&lt;主题名称&gt;
--确保将 &lt;主题的GitHub地址或下载链接&gt; 替换为实际的地址或链接，将 &lt;主题名称&gt; 替换为你想要为主题选择的名称。
--在 Hugo 配置文件 config.toml（或 config.yaml、config.json，具体取决于你使用的配置文件格式）中，将 theme 字段的值设置为你选择的主题名称。</p>
+或批处理文件。”</p>
+<h2 id="解决方法">解决方法</h2>
+<ol>
+<li>打开 &ldquo;控制面板&rdquo;，可以通过在开始菜单中搜索并打开 &ldquo;控制面板&rdquo; 来访问。</li>
+<li>在 &ldquo;控制面板&rdquo; 中，选择 &ldquo;系统和安全&rdquo;。</li>
+<li>点击 &ldquo;系统&rdquo;，然后选择 &ldquo;高级系统设置&rdquo;。</li>
+<li>在弹出的 &ldquo;系统属性&rdquo; 窗口中，切换到 &ldquo;高级&rdquo; 选项卡，并点击 &ldquo;环境变量&rdquo; 按钮。</li>
+<li>推荐在 &ldquo;系统变量&rdquo; 中进行配置，这样所有用户都可以使用。</li>
+<li>添加新的环境变量，点击 &ldquo;新建&rdquo; 按钮。输入hugo.exe所在的位置，并点击 &ldquo;确定&rdquo;。</li>
+</ol>
+<h2 id="更换hugo主题">更换hugo主题</h2>
+<ol>
+<li>打开 Hugo 主题库（例如 themes.gohugo.io）或其他来源，浏览并选择你喜欢的主题。</li>
+<li>在主题页面中，找到主题的 GitHub 地址或下载链接，复制该地址或链接。
+3.&gt; 打开终端或命令行界面，并导航到你的 Hugo 博客项目目录。运行以下命令，将主题添加为 Git 子模块（以 GitHub 为例）：bashgit submodule add &lt;主题的GitHub地址或下载链接&gt; themes/&lt;主题名称&gt;</li>
+</ol>
+<ul>
+<li>确保将 &lt;主题的GitHub地址或下载链接&gt; 替换为实际的地址或链接，将 &lt;主题名称&gt; 替换为你想要为主题选择的名称。</li>
+<li>在 Hugo 配置文件 config.toml（或 config.yaml、config.json，具体取决于你使用的配置文件格式）中，将 theme 字段的值设置为你选择的主题名称。</li>
+</ul>
 
     </div>
 <div class="post_comments">
