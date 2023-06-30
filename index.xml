@@ -6,7 +6,23 @@
     <description>Recent content on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 28 Jun 2023 17:26:20 +0800</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 28 Jun 2023 19:50:30 +0800</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>MyHomework</title>
+      <link>/posts/myhomework/</link>
+      <pubDate>Wed, 28 Jun 2023 19:50:30 +0800</pubDate>
+      
+      <guid>/posts/myhomework/</guid>
+      <description>
+        
+          
+            #在搭建hugo博客时遇到的问题以及解决方法 ##输入 hugo version显示“不是内部或外部命令，也不是可运行的程序 或批处理文件。” ##解决方法 1.打开 &amp;ldquo;控制面板&amp;rdquo;，可以通过在开始菜单中搜索并打开 &amp;ldquo;控制面板&amp;rdquo; 来访问。 2.在 &amp;ldquo;控制面板&amp;rdquo; 中，选择 &amp;ldquo;系统和安全&amp;rdquo;。 3.点击 &amp;ldquo;系统&amp;rdquo;，然后选择 &amp;ldquo;高级系统设置&amp;rdquo;。 4.在弹出的 &amp;ldquo;系统属性&amp;rdquo; 窗口中，切换到 &amp;ldquo;高级&amp;rdquo; 选项卡，并点击 &amp;ldquo;环境变量&amp;rdquo; 按钮。 5.推荐在 &amp;ldquo;系统变量&amp;rdquo; 中进行配置，这样所有用户都可以使用。 6.添加新的环境变量，点击 &amp;ldquo;新建&amp;rdquo; 按钮。输入hugo.exe所在的位置，并点击 &amp;ldquo;确定&amp;rdquo;。 ##更换hugo主题 1.打开 Hugo 主题库（例如 themes.gohugo.io）或其他来源，浏览并选择你喜欢的主题。 2.在主题页面中，找到主题的 GitHub 地址或下载链接，复制该地址或链接。 3.&amp;gt;打开终端或命令行界面，并导航到你的 Hugo 博客项目目录。运行以下命令，将主题添加为 Git 子模块（以 GitHub 为例）：bashgit submodule add &amp;lt;主题的GitHub地址或下载链接&amp;gt; themes/&amp;lt;主题名称&amp;gt; -确保将 &amp;lt;主题的GitHub地址或下载链接&amp;gt; 替换为实际的地址或链接，将 &amp;lt;主题名称&amp;gt; 替换为你想要为主题选择的名称。 -在 Hugo 配置文件 config.toml（或 config.yaml、config.json，具体取决于你使用的配置文件格式）中，将 theme 字段的值设置为你选择的主题名称。
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Yyk1</title>
       <link>/posts/yyk1/</link>
